@@ -1,23 +1,81 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Argentina Starter Pack</h1>
-    <ul>
-        <li>Streamers</li>
-        <li>Como hacer un fernet</li>
-        <li>Quien inventó el mate</li>
-        <li>Las malvinas y el mundial del 86</li>
-        <li>Maravillas naturales</li>
-        <li>5 presidentes en una semana</li>
-        <li>Inventos argentinos</li>
-        <li></li>
-    </ul>
-    <iframe src="https://open.spotify.com/embed/playlist/1e7dDtB2C9FVmAJQgiP9MH?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-</body>
+<html>
+    <title>Argentina Starter Pack</title>
+    <head>
+        <link href="./style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&family=Spline+Sans:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1><a id="name" href="./">Argentina Starter Pack</a></h1>
+        </header>
+        <main>
+            <section class="bodySection">
+                <h2 class="sectionHeader">Qué hay por acá?</h2>
+                <ul>
+                    <li>Cómo preparar un fernet</li>
+                    <li>Quién inventó el mate</li>
+                    <li>Música</li>
+                    <li>5 presidentes en una semana</li>
+                    <li>La guerra de malvinas y el mundial '86</li>
+                </ul>
+            </section>
+            <section class="bodySection">
+                <h2 class="sectionHeader">Cómo preparar un fernet</h2>
+                <p>Pasos para preparar el elixir argentino</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tLBzbtqQM2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Skol &#x1f37b</p>
+            </section>
+            <section class="bodySection">
+                <h2 class="sectionHeader">Quién inventó el mate &#x1f9c9</h2>
+                <p>La verdadera guerra entre Argentina, Uruguay y Paraguay: ¿Quién invetó el mate? <a class="bodyLink" href="https://www.bbc.com/mundo/noticias-america-latina-42138588">El verdadero rey del mate</a></p>
+            </section>
+            <section class="bodySection">
+                <h2 class="sectionHeader">Musica &#x1f3b6</h2>
+                <p>Cumbia, tango, cuarteto y folklore. Hay de todo para todos.</p>
+                <iframe src="https://open.spotify.com/embed/playlist/1LmvhTM9aL3vpedPx1CzNm?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <iframe src="https://open.spotify.com/embed/playlist/0sAAYyQQemt7UD1rbICQJo?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX490QbTioWDE?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <iframe src="https://open.spotify.com/embed/playlist/2FoK63yriiN0ErE88CvTHx?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </section>
+            <section class="bodySection">
+                <h2 class="sectionHeader">5 presidentes en una semana</h2>
+                <p>Qué tan desorganizado e inestable puede ser un país? Argentina en su máxima expresión: cinco presidentes en una semana. <a class="bodyLink" href="https://www.telam.com.ar/notas/202112/577669-dos-semanas-cinco-presidentes-institucionalidad-argentina.html">Más info</a></p>
+                <div class="writingsContainer">
+                    <div class="tile">
+                        <a href="https://es.wikipedia.org/wiki/Fernando_de_la_R%C3%BAa" class="tileHeader" target="_blank">De La Rua
+                            <img class="tileImg" src="./static/DeLaRua.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a href="https://es.wikipedia.org/wiki/Ram%C3%B3n_Puerta" class="tileHeader" target="_blank">Puerta
+                            <img class="tileImg" src="./static/Puerta.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a href="https://es.wikipedia.org/wiki/Adolfo_Rodr%C3%ADguez_Sa%C3%A1" class="tileHeader" target="_blank">Rodriguez Saa
+                            <img class="tileImg" src="./static/Saa.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a href="https://es.wikipedia.org/wiki/Eduardo_Cama%C3%B1o" class="tileHeader" target="_blank">Camaño
+                            <img class="tileImg" src="./static/Camaño.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="tile">
+                        <a href="https://es.wikipedia.org/wiki/Eduardo_Duhalde" class="tileHeader" target="_blank">Duhalde
+                            <img class="tileImg" src="./static/Duhalde.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="bodySection">
+                <h2 class="sectionHeader">La guerra de malvinas y el mundial '86</h2>
+                <p>Revancha: <a class="bodyLink" href="https://www.lanacion.com.ar/deportes/mexico-86-el-dia-que-los-futbolistas-usaron-la-guerra-de-malvinas-como-una-motivacion-nid1905778/">el día que los futbolistas usaron la guerra de Malvinas como una motivación</a></p>
+            </section>
+        </main>
+        <footer>2022 yagopajarino</footer>
+    </body>
 </html>
